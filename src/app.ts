@@ -12,4 +12,4 @@ app.get('/coffeelover', (req, res) => {
     res.send('I like coffee!')
 })
 
-app.use('/coffee', router)
+app.use('/', router)
